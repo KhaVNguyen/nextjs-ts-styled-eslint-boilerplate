@@ -39,17 +39,6 @@
     "prettier": "^2.1.1",
     "typescript": "^4.0.3"
   },
-  "eslintConfig": {
-    "extends": "eslint-config-wesbos/typescript.js",
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    },
-    "rules": {
-      "@typescript-eslint/missing-return-type": "off",
-      "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/explicit-module-boundary-types": "off"
-    }
-  },
   "lint-staged": {
     "**/*.{ts,tsx}": "npm run lint:fix"
   },
